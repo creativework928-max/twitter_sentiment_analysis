@@ -1,0 +1,19 @@
+{
+    "model": "Logistic Regression",
+    "features": "word_tfidf + character_tfidf",
+    "word_features": 250000,
+    "character_features": 150000,
+    "random_state": 42,
+    "test_size": 0.2,
+    "training_rows": 1265172,
+    "testing_rows": 316294,
+    "total_features": 400000,
+    "metrics": {
+        "accuracy": 0.8307081386305146,
+        "precision": 0.8260135871426525,
+        "recall": 0.8382062088880745,
+        "f1": 0.8320652344362552,
+        "model": "Logistic Regression",
+        "training_time_seconds": 127.82123565673828
+    }
+}
